@@ -5,7 +5,7 @@ const [command, obj] = cliArgs.unknown
 
 const NO_ENV_ERR_MSG = 'There is no .env file'
 
-const setState = (state?:string)=>{
+const set = (state?:string)=>{
   if(!state) return console.log("state is not selected.")
   const envRepository = cli.run("git rev-parse --show-toplevel") +'/.env'
   const envState = obj;
@@ -37,8 +37,8 @@ const setState = (state?:string)=>{
 }
 
 switch(command){
-    case 'state':
-        setState(obj)
+    case 'set':
+        set(obj)
         break;
 
     default:

@@ -1,25 +1,25 @@
-# env-cli
-env-cli is a simple tool for managing environment variables. It allows you to edit .env files with different configurations for each environment.
+# env-state
+env-state is a simple tool for managing environment variables. It allows you to edit .env files with different configurations for each environment.
 
 ## Installation
-You can install env-cli via npm:
+You can install env-state via npm:
 
 ```bash
-npm install -g env-cli
+npm install -g env-state
 ```
 
-To use env-cli, run the following command:
+To use env-state, run the following command:
 
 
 ```bash
-npx env-cli [state] [env-state]
+npx env-state [state] [env-state]
 ```
 Where state represents the state to be set in the .env file, and environment specifies the environment to be edited.
 
 For example, running the following command:
 
 ```bash
-npx env-cli state dev
+npx env-state state dev
 ```
 Will edit a .env file with settings for the dev state. If a .env file already exists, the settings for the specified state will be updated in the existing file.
 
