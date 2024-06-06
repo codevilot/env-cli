@@ -1,6 +1,6 @@
 {
   "name": "env-state",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Handle the .env file",
   "main": "dist/main.js",
   "bin": "dist/main.js",
