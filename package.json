@@ -1,0 +1,22 @@
+{
+  "name": "env-cli",
+  "version": "0.0.0",
+  "description": "Handle the .env file",
+  "main": "dist/main.js",
+  "bin": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "codevilot",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "get-them-args": "^1.3.2"
+  }
+}
