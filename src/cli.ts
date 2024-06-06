@@ -1,3 +1,4 @@
+#!/usr/bin/env node 
 const {execSync} = require("child_process")
 class Cli {
     public run(cmd:string){
