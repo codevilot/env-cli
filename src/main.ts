@@ -1,3 +1,4 @@
+#!/usr/bin/env node 
 import { cli } from "./cli"
 
 const cliArgs = require('get-them-args')(process.argv.slice(2))
